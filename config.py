@@ -10,7 +10,7 @@ class Base:
 
 
 class DevConfig(Base):
-    SQLALCHEMY_DATABASE_URI = 'sqlite3:///dev.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///dev.db'
     DEBUG = True
 
 
